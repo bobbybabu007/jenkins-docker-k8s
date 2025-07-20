@@ -14,7 +14,7 @@ services:
     container_name: jenkins
     user: jenkins
     privileged: true
-    image: bobbybabu007/jenkins-nonprod:2.2.3
+    image: bobbybabu007/jenkins-nonprod:4.0.0
 #    jenkins/jenkins:lts-jdk11
 #    entrypoint: ["jenkins-plugin-cli", "--plugins", "docker-workflow", "&&", "/sbin/tini", "--", "/usr/local/bin/jenkins.sh"]
     ports:
