@@ -8,7 +8,7 @@ tool:
     - home: "/bin/git"
       name: "git-new"
     - home: "/opt/git"
-    - name: "git-portable"
+      name: "git-portable"
   mavenGlobalConfig:
     globalSettingsProvider: "standard"
     settingsProvider: "standard"
