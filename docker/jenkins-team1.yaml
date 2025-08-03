@@ -1,0 +1,20 @@
+jenkins:
+  systemMessage: "You are on the Jenkins meant to run Team1's CI/CD pipelines. Please contact team1@pragra.com for additional access or issues."
+tool:
+  git:
+    installations:
+    - home: "/usr/bin/git"
+      name: "git"
+    - home: "/bin/git"
+      name: "git-new"
+    - home: "/opt/git"
+    - name: "git-portable"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
+  powerShellInstallation:
+    installations:
+    - home: "powershell.exe"
+      name: "DefaultWindows"
+    - home: "pwsh"
+      name: "DefaultLinux"
